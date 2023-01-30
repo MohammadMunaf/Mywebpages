@@ -30,3 +30,7 @@ img {
     margin-left: 11px;
     margin-right: 11px;
 }
+
+a {
+    text-decoration: none;
+}
