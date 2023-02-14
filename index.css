@@ -1,0 +1,70 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    max-width: 300px;
+    border-radius: 13px;
+}
+
+.content {
+    margin: 25px 25px 0 25px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+p,
+.col2 {
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+}
+
+p {
+    line-height: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.col1 {
+    color: hsl(178, 100%, 50%);
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+footer {
+    border-top: 0.1px solid hsl(215, 51%, 70%, 0.3);
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+
+#name {
+    color: white;
+}
+
+footer img {
+    width: 6%;
+    max-height: 20px;
+    border-radius: 60%;
+    margin: 10px 5px 10px 0;
+    border: 1px solid white;
+}
